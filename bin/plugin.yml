@@ -1,0 +1,17 @@
+name: ChaosPvP
+version: 2.0
+main: speeddev.info.ChaosPvP
+author: SpeedDev
+description: ChaosPvP
+depend: [Vault]
+
+commands:
+    stats:
+        usage: /<command> 
+        aliases: [statistics, stat]
+        description: Stats.
+        
+permissions:
+    sign.change:
+        description: Add / Change item signs.
+        default: op
